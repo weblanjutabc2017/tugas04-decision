@@ -1,4 +1,7 @@
 <?
+
+/* NAMA : HESYA MEGITASARI
+   KELAS : PRAKTIKUM AB */
 $a = String("x");
 
 if($a = "A" || "B" || "A-" || "A/B" || "B+" || "B-" || "B/C"){
