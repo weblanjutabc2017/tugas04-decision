@@ -1,17 +1,17 @@
 <? php
-	$nilai;
+	$nilai="B-";
 	
 	switch ($nilai){
-		case $nilai = A+ || A- || A/B || B || B+ || B- || B/C:
-		echo ("LULUS");
+		case  "A+" || "A-" || "A/B" || "B" || "B+" || "B-" || "B/C":
+		echo "LULUS";
 		break ;
-		case $nilai = C || C+ || C- || C/D:
-		echo ("LULUS, SEBAIKNYA DIULANG");
+		case "C" || "C+" || "C-" || "C/D":
+		echo "LULUS, SEBAIKNYA DIULANG";
 		break;
-		case $nilai = D || D+:
-		echo ("LULUS, WAJIB DIULANG");
-		case $nilai = E:
-		echo ("TIDAK LULUS!");
-		default $nilai = E;
+		case  "D" || "D+":
+		echo "LULUS, WAJIB DIULANG";
+		default :
+		echo "TIDAK LULUS!";
+		break;
 	}
 ?>
