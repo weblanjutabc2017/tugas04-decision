@@ -1,6 +1,6 @@
 <?
 
-/* NAMA : HESYA MEGITASARI
+/* NAMA : HESYA MEGITASARI(16/401032/sv/11536)
    KELAS : PRAKTIKUM AB */
 $a = String("x");
 
